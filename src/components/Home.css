@@ -1,0 +1,89 @@
+/* Home.css */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+  }
+  
+.home-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #e01717; /* Set a different background color */
+    padding: 20px;
+  }
+  .menu-bar {
+    background-color: #333; /* Background color for the menu bar */
+    color: #fff; /* Text color for menu items */
+    padding: 10px;
+  }
+  
+  .menu-bar a {
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .menu-bar a.active-link {
+    font-weight: bold; /* Style the active link */
+  }
+  
+  .movie-table {
+    margin: 0 auto; /* Center the table on the page */
+    background-color: #524f4f; /* Set a different background color for the table */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .movie-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+  }
+  
+  td img {
+    max-width: 100px;
+    max-height: 150px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  td h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  td p {
+    font-size: 14px;
+  }
+  .footer {
+    text-align: center; /* Center the footer text */
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color for the footer */
+    padding: 10px;
+  }
