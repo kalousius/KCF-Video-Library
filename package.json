@@ -9,9 +9,12 @@
     "lint": "eslint . --ext js,jsx",
     "preview": "vite preview",
     "start": "vite",
-    "server": "node server.js"
+    "server": "nodemon index.js"
   },
   "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.18.0"
@@ -25,5 +28,17 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "vite": "^4.4.5"
-  }
+  },
+  "description": "\"KCF-Video Library\" is an online platform that offers a collection of movies for users to explore and order their favorites. Users can browse a variety of movies, view their descriptions, and make selections. It may include features like user authentication, a catalog of available movies, movie details, and a shopping cart for ordering. The platform is designed to provide an enjoyable movie-watching experience for its users.",
+  "main": "vite.config.js",
+  "author": "k java Alousius",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalousius/KCF-Video-Library.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kalousius/KCF-Video-Library/issues"
+  },
+  "homepage": "https://github.com/kalousius/KCF-Video-Library#readme"
 }
