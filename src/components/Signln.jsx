@@ -15,7 +15,7 @@ const SignIn = () => {
         <span style={{ color: '#FF9933' }}> KCF - </span>
         <span style={{ color: '#34AD54' }}>VIDEO</span>
       </h1>
-      <h2>Login</h2>
+      
       <form action="/login" method="POST">
         <div>
           <label htmlFor="email">Email:</label><br></br>
